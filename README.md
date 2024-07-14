@@ -1,9 +1,7 @@
-# Reinforcement Learning dengan Deep Q-Network untuk Game Demon Attack
-
-Pandega Abyan Zumarsyah (18/424977/TK/46672)
+# Reinforcement Learning with Deep Q-Network for Demon Attack Game
 
 ---
 
-Ini merupakan pengujian Reinforcement Learning dengan Deep Q-Netwrok untuk Game Atari bernama Demon Attack. Environment didapatkan dari [OpenAI Gym](https://gym.openai.com/envs/#atari). Pengolahan dilakukan pada citra dari game dengan basis PyTorch. Output dari pengujian ini meliputi perbandingan skor dan history antara trained agent dengan random, model dari trained agent, serta video pengujian baik untuk trained agent maupun random. 
+This is an implementation of Reinforcement Learning using Deep Q-Networks for the Atari game called Demon Attack. The environment was obtained from [OpenAI Gym](https://gym.openai.com/envs/#atari). Image processing was conducted using PyTorch framework. Outputs from this experiment include score and history comparisons between the trained agent and random actions, the model from the trained agent, as well as video recordings showcasing the performance of both the trained agent and random actions.
 
-Kode yang digunakan di sini tentu berasal dari berbagai referensi, namun utamanya adalah dari https://github.com/qarchli/dqn-on-space-invaders. Meski begitu, terdapat banyak penyesuaian untuk mempersingkat kodenya, mempercepat pengolahannya, dan meningkatkan hasilnya. Itu tidak bisa dilakukan tanpa memahami kodenya secara mendalam. Apalagi, masalah yang dihadapi juga berbeda sehingga pendekatannya belum tentu bisa sama. 
+The code used here is sourced from various references, primarily from https://github.com/qarchli/dqn-on-space-invaders. However, extensive modifications were made to streamline the code, enhance processing speed, and improve outcomes. Moreover, the encountered challenges differed, necessitating unique approaches that might not align with the original implementation.
